@@ -1,0 +1,22 @@
+#include<stdio.h>
+int input()
+{
+printf("enter the number");
+scanf("%d',&a);
+return a;
+}
+int addone(int m,int n)
+{
+m=n+1;
+return m;
+}
+int output(int m)
+{
+printf("%d",m);
+}
+int main()
+{
+int a=input();
+int m=addone(m,n);
+output(m);
+}
