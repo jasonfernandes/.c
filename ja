@@ -21,3 +21,4 @@ void main()
 int input(int a,intb);
 int add(int m,int n);
 void output(int p);
+}
