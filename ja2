@@ -1,0 +1,37 @@
+#include<stdio.h>
+int input();
+int logic(int,int,int);
+void output(int);
+int input()
+{
+int a;
+printf("enter the number",a);
+scanf("%d",&a);
+return a;
+}
+int logic(int m,int n,int o)
+{
+if(m>n)
+{
+if(m>o)
+return m;
+else
+return o;
+}
+if(n>o)
+return n;
+else 
+return o;
+}
+void output(int p)
+{
+printf("largest no. is %d",p);
+}
+int main()
+{
+int m=input();
+int n=input();
+int o=input();
+int s=logic(m,n,o);
+output(p);
+}
