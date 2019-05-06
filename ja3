@@ -1,0 +1,26 @@
+#include<stdio.h>
+int input();
+int add(int,int);
+void output(int);
+int input()
+{
+int a;
+printf("enter the number",a);
+return a;
+}
+int add(int m,int n)
+{
+int p=m+n;
+return p;
+}
+void output(int p)
+{
+printf("sum is %d",p);
+}
+int main()
+{
+int m=input();
+int n=input();
+p=add(m,n);
+output(p);
+}
